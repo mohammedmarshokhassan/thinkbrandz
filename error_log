@@ -1,0 +1,28 @@
+[03-Jul-2023 06:08:20 UTC] PHP Warning:  file_get_contents(/home/thinkbra/public_html/sitepad-data/themes//pagelayer.conf): failed to open stream: No such file or directory in /usr/local/sitepad/editor/site-data/plugins/pagelayer-pro/main/import.php on line 477
+[25-Sep-2023 12:23:39 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:23:39 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:29:41 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:29:41 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:29:44 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:29:44 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:29:45 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:29:45 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:30:18 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:30:18 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:30:20 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:30:20 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:30:21 UTC] PHP Notice:  Undefined variable: conn in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:30:21 UTC] PHP Notice:  Trying to get property 'error' of non-object in /home/thinkbra/public_html/db.php on line 12
+[25-Sep-2023 12:34:43 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'thinkbra_REG'@'localhost' to database 'thinkbra_EG' in /home/thinkbra/public_html/db.php on line 14
+[25-Sep-2023 12:36:00 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'thinkbra_think'@'localhost' (using password: YES) in /home/thinkbra/public_html/db.php on line 5
+[26-Sep-2023 04:45:31 UTC] PHP Notice:  Undefined index: phone in /home/thinkbra/public_html/form.php on line 32
+[26-Sep-2023 04:50:51 UTC] PHP Notice:  Undefined index: phone in /home/thinkbra/public_html/form.php on line 32
+[26-Sep-2023 05:03:26 UTC] PHP Notice:  Undefined index: phone in /home/thinkbra/public_html/contact.php on line 217
+[28-Sep-2023 10:44:51 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in /home/thinkbra/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php:2159
+Stack trace:
+#0 /home/thinkbra/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1970): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 /home/thinkbra/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1648): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Thu, 28 S...', 'Name = marshok ...')
+#2 /home/thinkbra/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php(1486): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/thinkbra/public_html/form.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#4 {main}
+  thrown in /home/thinkbra/public_html/vendor/phpmailer/phpmailer/src/PHPMailer.php on line 2159
